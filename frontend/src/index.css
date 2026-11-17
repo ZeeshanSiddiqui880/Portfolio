@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-ink font-sans text-slate-300 antialiased selection:bg-neon/30;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-line;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-ink;
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-6xl px-5;
+  }
+  .card {
+    @apply rounded-xl border border-line bg-panel p-5;
+  }
+  .btn {
+    @apply inline-flex cursor-pointer items-center justify-center gap-2 rounded-lg border border-white bg-panel px-4 py-2 font-mono text-sm font-medium text-slate-200 transition hover:border-neon hover:text-neon disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply border-transparent bg-neon text-ink hover:border-transparent hover:bg-neon/90 hover:text-ink;
+  }
+  .btn-danger {
+    @apply text-red-400 hover:border-red-400 hover:text-red-400;
+  }
+  .btn-sm {
+    @apply px-3 py-1.5 text-xs;
+  }
+  .input {
+    @apply w-full rounded-lg border border-line bg-soft px-3 py-2 text-sm text-slate-100 outline-none transition placeholder:text-slate-600 focus:border-neon;
+  }
+  .chip {
+    @apply rounded-md border border-line bg-soft px-2 py-1 font-mono text-xs text-cyan2;
+  }
+}
+
+@layer utilities {
+  .bg-grid {
+    background-image: linear-gradient(rgba(62, 224, 138, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(62, 224, 138, 0.06) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+  .text-glow {
+    text-shadow: 0 0 28px rgba(62, 224, 138, 0.35);
+  }
+}

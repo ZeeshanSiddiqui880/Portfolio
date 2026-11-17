@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "name": "Zeeshan Siddiqui",
+    "title": "Full Stack Developer (MERN)",
+    "location": "Aurangabad, India",
+    "email": "",
+    "phone": "",
+    "github": "",
+    "linkedin": "",
+    "leetcode": "",
+    "summary": "I build full-stack web apps that people actually use. From REST APIs and auth to clean React interfaces, I like owning a feature end to end. Right now I'm shipping features on a live SaaS platform with the MERN stack, and I'm looking for my next role.",
+    "skills": [
+      {
+        "category": "Frontend",
+        "items": [
+          "React.js",
+          "Redux Toolkit",
+          "TanStack Query",
+          "JavaScript (ES6+)",
+          "HTML5",
+          "CSS3",
+          "Tailwind CSS",
+          "Bootstrap",
+          "Material UI",
+          "Vite"
+        ]
+      },
+      {
+        "category": "Backend",
+        "items": [
+          "Node.js",
+          "Express.js",
+          "REST API Design",
+          "JWT Authentication",
+          "Passport.js",
+          "bcrypt",
+          "CORS",
+          "Sequelize ORM"
+        ]
+      },
+      {
+        "category": "Database",
+        "items": [
+          "MongoDB (Atlas)",
+          "Mongoose",
+          "MySQL"
+        ]
+      },
+      {
+        "category": "Tools & Platforms",
+        "items": [
+          "Git",
+          "GitHub",
+          "Postman",
+          "Thunder Client",
+          "Cloudinary",
+          "Mapbox"
+        ]
+      },
+      {
+        "category": "Concepts",
+        "items": [
+          "MERN Stack",
+          "MVC Architecture",
+          "SaaS Development",
+          "Agile/Scrum",
+          "DSA",
+          "OOP"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Tech",
+        "school": "P.E.S College of Engineering, Aurangabad",
+        "year": "2024"
+      }
+    ],
+    "resumeLink": ""
+  },
+  "projects": [
+    {
+      "title": "Store Rating Application",
+      "description": "Full-stack multi-role store rating platform for Admin, Normal User, and Store Owner roles.",
+      "techStack": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "Sequelize ORM",
+        "JWT"
+      ],
+      "bullets": [
+        "Built a full-stack multi-role store rating platform implementing JWT-based authentication, role-based authorization (RBAC), and bcrypt password hashing to secure access for Admin, Normal User, and Store Owner roles.",
+        "Designed a normalized MySQL schema with foreign keys, ENUM types, and a composite unique constraint on ratings to enforce one rating per user per store at the database level.",
+        "Implemented Sequelize ORM with model associations (hasMany, belongsTo), lifecycle hooks for automatic password hashing, and aggregate queries (AVG, COUNT) for real-time store ratings.",
+        "Built a dynamic admin dashboard with filterable/sortable user and store management, and a store owner dashboard displaying per-store average ratings and rater details."
+      ],
+      "githubUrl": "",
+      "liveUrl": "",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "title": "Renting Places – Airbnb-style Rental Platform",
+      "description": "Full-stack rental listing platform built with MVC architecture.",
+      "techStack": [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Bootstrap",
+        "Passport.js",
+        "Cloudinary",
+        "Mapbox",
+        "Joi"
+      ],
+      "bullets": [
+        "Built a full-stack rental listing platform with MVC architecture, featuring user authentication, listing CRUD, and reviews.",
+        "Integrated Cloudinary for image management, Mapbox for interactive property maps, and Joi for server-side form validation.",
+        "Implemented robust error handling via wrapAsync and ExpressError middleware, and session-based auth with Passport.js."
+      ],
+      "githubUrl": "",
+      "liveUrl": "",
+      "featured": true,
+      "order": 2
+    },
+    {
+      "title": "FinVerse – Full-Stack Trading Web Application",
+      "description": "Trading web application built as three independent modules: Dashboard, Frontend, and Backend.",
+      "techStack": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB Atlas",
+        "JWT",
+        "Material UI"
+      ],
+      "bullets": [
+        "Architected a three-module system (Dashboard, Frontend, Backend) for clean separation of concerns and independent scalability.",
+        "Implemented secure authentication and authorization using JWT with cookie-based session handling and bcrypt password hashing.",
+        "Integrated Axios for API communication, React Router for SPA navigation, and React Toastify for real-time user feedback.",
+        "Applied CORS configuration, environment variable management, and secure cookie handling to meet production security standards."
+      ],
+      "githubUrl": "",
+      "liveUrl": "",
+      "featured": true,
+      "order": 3
+    }
+  ],
+  "certificates": [
+    {
+      "title": "MERN Stack Development",
+      "issuer": "",
+      "issueDate": "",
+      "link": "",
+      "order": 1
+    },
+    {
+      "title": "Java Programming",
+      "issuer": "",
+      "issueDate": "",
+      "link": "",
+      "order": 2
+    }
+  ],
+  "experience": [
+    {
+      "role": "Full Stack Developer Intern (MERN)",
+      "company": "Tech Jose",
+      "period": "Oct 2025 – Jun 2026",
+      "bullets": [
+        "Developed and maintained a production SaaS biometric and interview platform using React.js, Node.js, Express, and MongoDB, supporting real-time data processing and multi-user access.",
+        "Architected and implemented secure REST APIs with JWT-based authentication and Role-Based Access Control (RBAC), protecting data for 500+ user accounts.",
+        "Built responsive, cross-device UI components using React.js and Tailwind CSS, reducing load time and improving user engagement.",
+        "Integrated TanStack Query and Redux Toolkit for efficient server-state management and client-side caching, minimizing API calls.",
+        "Collaborated in a 4-member Agile team, participating in code reviews and daily standups to ensure timely feature delivery.",
+        "Implemented secure API integrations with third-party services and followed best practices for environment variable management and CORS configuration."
+      ],
+      "order": 1,
+      "certificateLink": "",
+      "lorLink": ""
+    }
+  ]
+}
