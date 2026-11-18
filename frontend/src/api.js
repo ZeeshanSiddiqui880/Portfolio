@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const API = import.meta.env.VITE_API_URL ;
-console.log(API, "API");
+// console.log(API, "API");
 
 
 const api = axios.create({ baseURL: API });
@@ -13,6 +13,8 @@ api.interceptors.request.use((config) => {
 });
 
 export const resumeDownloadUrl = `${API}/resume/download`;
+// console.log(resumeDownloadUrl, "resume");
+
 
 export const errMsg = (e) => e?.response?.data?.message || e?.message || 'Something went wrong';
 
